@@ -1,5 +1,5 @@
 //Nicolas Bahena Ostermaier
-//Realizar un algoritmo en pseudoco?digo para convertir 
+//Realizar un algoritmo en pseudocodigo para convertir 
 //grados Celsius a grados Kelvin y Fahrenheit.
 Algoritmo Grados
 	Definir Gcelsius, Gkelvin, Gfahrenheit Como Real
