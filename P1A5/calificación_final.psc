@@ -1,23 +1,23 @@
 //Nicolas Bahena Ostermaier
-//Un estudiante desea saber cua?l sera? su calificacio?n final en el curso de
-//Algoritmos, con los siguientes ??tems de calificaciones: Primer parcial:
+//Un estudiante desea saber cual sera su calificacion final en el curso de
+//Algoritmos, con los siguientes items de calificaciones: Primer parcial:
 //20 % Segundo parcial: 20 % Pra?ctica: 35 % Parcial final: 25 %.
-Algoritmo Calificaci髇_final
+Algoritmo Calificaci贸n_final
 	Definir Pparcial, Sparcial, practica, Pfinal, calFinal Como Real
 	
-	Escribir "Ingrese su calificaci髇 del primer parcial (0-100):"
+	Escribir "Ingrese su calificaci贸n del primer parcial (0-100):"
 	Leer Pparcial
 	
-	Escribir "Ingrese su calificaci髇 del segundo parcial (0-100):"
+	Escribir "Ingrese su calificaci贸n del segundo parcial (0-100):"
 	Leer Sparcial
 	
-	Escribir  "Ingrese su calificaci髇 en las pr醕ticas (0-100):"
+	Escribir  "Ingrese su calificaci贸n en las pr谩cticas (0-100):"
 	Leer practica
 	
-	Escribir "Ingrese su calificaci髇 en el parcial final (0-100):"
+	Escribir "Ingrese su calificaci贸n en el parcial final (0-100):"
 	Leer Pfinal
 	
 	
 	calFinal <- Pparcial*0.2 + Sparcial*0.2 + practica*0.35 + Pfinal*0.25
-	Escribir "Su calificaci髇 final es: ", calFinal, "%"
+	Escribir "Su calificaci贸n final es: ", calFinal, "%"
 FinAlgoritmo
