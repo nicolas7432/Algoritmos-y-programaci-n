@@ -1,3 +1,4 @@
+//Nicolas Bahena Ostermaier
 Algoritmo circuito3
 	Definir p,q Como Logico
 	p <- Verdadero
