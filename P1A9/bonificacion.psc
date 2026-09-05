@@ -1,34 +1,47 @@
 // Nicolas Bahena Ostermaier
-// Realizar un algoritmo para determinar la bonificaci�n que
-// recibe un empleado de la compa�ia ABC, la cu�l les
-// otorgan una sola vez al a�o una bonificaci�n de acuerdo
-// con su salario ba?sico y los a�os de antiguedad en la
-// organizaci�n
+// Realizar un algoritmo para determinar la bonificación que
+// recibe un empleado de la compañia ABC, la cuál les
+// otorgan una sola vez al año una bonificación de acuerdo
+// con su salario básico y los años de antiguedad en la
+// organización según la siguiente información:
+//Tiempo en años       Porcentaje
+//Menos de 5 años      5% del salario básico
+//5 años o más y 
+//menos de 10 años     10% del salario básico
+//10 años o más y 
+//menos de 15 años     15% del salario básico
+//15 años o más y 
+//menos de 20 años     20% del salario básico
+//20 años o más y 
+//menos de 25 años     25% del salario básico
+//25 años o más y 
+//menos de 30 años     35% del salario básico
+//30 años o más        50% del salario básico
 Algoritmo bonificacion
 	Definir Sbasico, antiguedad Como Real
-	Escribir '�Cu�l es su salario b�sico?'
+	Escribir '¿Cuál es su salario básico?'
 	Leer Sbasico
-	Escribir '�Cu�ntos a�os lleva en la compa�ia ABC?'
+	Escribir '¿Cuántos años lleva en la compañia ABC?'
 	Leer antiguedad
 	Si antiguedad<5 Entonces
-		Escribir 'Su bonificaci�n este a�o es de: ', Sbasico*0.05, '$'
+		Escribir 'Su bonificación este año es de: ', Sbasico*0.05, '$'
 	SiNo
 		Si antiguedad<10 Entonces
-			Escribir 'Su bonificaci�n este a�o es de: ', Sbasico*0.1, '$'
+			Escribir 'Su bonificación este año es de: ', Sbasico*0.1, '$'
 		SiNo
 			Si antiguedad<15 Entonces
-				Escribir 'Su bonificaci�n este a�o es de: ', Sbasico*0.15, '$'
+				Escribir 'Su bonificación este año es de: ', Sbasico*0.15, '$'
 			SiNo
 				Si antiguedad<20 Entonces
-					Escribir 'Su bonificaci�n este a�o es de: ', Sbasico*0.2, '$'
+					Escribir 'Su bonificación este año es de: ', Sbasico*0.2, '$'
 				SiNo
 					Si antiguedad<25 Entonces
-						Escribir 'Su bonificaci�n este a�o es de: ', Sbasico*0.25, '$'
+						Escribir 'Su bonificación este año es de: ', Sbasico*0.25, '$'
 					SiNo
 						Si antiguedad<30 Entonces
-							Escribir 'Su bonificaci�n este a�o es de: ', Sbasico*0.35, '$'
+							Escribir 'Su bonificación este año es de: ', Sbasico*0.35, '$'
 						SiNo
-							Escribir 'Su bonificaci�n este a�o es de: ', Sbasico*0.5, '$'
+							Escribir 'Su bonificación este año es de: ', Sbasico*0.5, '$'
 						FinSi
 					FinSi
 				FinSi
